@@ -1,0 +1,243 @@
+/* HOMEPAGE */
+
+/* mouse cursor appearance over links */
+.pointer {
+  cursor: pointer;
+  }
+
+/* navigation arrows */
+.rightArrow {
+  position: fixed;
+  right: 20px;
+  opacity: 0.9;
+}
+
+.leftArrow { 
+  position: fixed;
+  left: 20px;
+  opacity: 0.9;
+}
+
+/* header image */
+.hero-image {
+  width: 1000px;
+  height: 500px;
+  background-image: url(https://i.pinimg.com/originals/4a/d9/b8/4ad9b8b231aaee4bf0d9bfe9e052317e.jpg);
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+
+/* text in header */
+.hero-text {
+  text-align: center;
+  position:relative;
+  top: 40%;
+  color: white;
+}
+/* size of webpage */
+index.html, body {
+  height: 200vh;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+} 
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 23%;
+  padding: 2px;
+}
+
+/* Heading Titles for each category */
+.navText{
+  font-family: "Tahoma", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+}
+/* user manual page */
+.cursor{
+  position: absolute;
+  top: 480px;
+  left: 350px;
+  width:40px; 
+  height:70px;
+  z-index: 2;
+}
+
+.cursor2 {
+  position: absolute;
+  top: 1190px;
+  left: 350px;
+  width: 40px; 
+  height: 70px;
+  z-index: 2;
+}
+
+/*user manual button */
+.manualBtn {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  top: 1100px;
+  left: 580px;
+  background-color: white;
+  border: 4px solid rgba(83, 161, 80, 0.76);
+  font-size: 20px;
+  transition-duration: 1s;
+}
+
+.manualBtn:hover {
+  background-color: rgba(83, 161, 80, 0.76);
+  color: white;
+}
+
+.manualText {
+  text-align: left;
+}
+
+/* return to homepage button */
+.btn {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+
+/* Rooms ===================================================================================================*/
+/* bathroom */
+bathroom.html, body {
+  height: 200vh;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/*bathroom objects placement*/
+.toothpaste {
+  position: absolute;
+  top: 930px;
+  left: 55px;
+}
+
+.toothbrush{
+  position: absolute;
+  top: 900px;
+  left: 40px;
+}
+
+.TPaper {
+  position: absolute;
+  top: 880px;
+  left: 610px;
+}
+
+.soap {
+  position: absolute;
+  top: 800px;
+  left: 190px;
+}
+
+.shower {
+  position: absolute;
+  top: 410px;
+  left: 860px;
+}
+
+/* backyard objects */
+.lawnMower {
+  position: absolute;
+  top: 240px;
+  left: 580px;
+}
+
+.garden {
+  position: absolute;
+  top: 300px;
+  left: 250px;
+}
+
+.flowers {
+  position: absolute;
+  top: 460px;
+  left: 220px; 
+}
+
+/* basement objects */
+.laundry {
+  position: absolute;
+  top:340px;
+  left: 150px;
+}
+
+/* bedroom objects */
+.clothing {
+  position: absolute;
+  top:400px;
+  left: 700px;
+}
+.makeup {
+  position: absolute;
+  top:380px;
+  left: 150px;
+}
+
+/* garage */ 
+.car1 {
+  position: absolute;
+  top: 300px;
+  left: 500px;
+}
+
+.car2 {
+  position: absolute;
+  top: 280px;
+  left: 160px;
+}
+
+/* kitchen objects */
+.food {
+  position: absolute;
+  top: 320px;
+  left: 550px; 
+}
+
+.shopping {
+  position: absolute;
+  top: 425px;
+  left: 100px; 
+}
+
+.takeout {
+  position: absolute;
+  top: 325px;
+  left: 250px; 
+}
+
+/* living room objects */
+.furniture {
+  position: absolute;
+  top: 420px;
+  left: 215px; 
+}
+
+.tech {
+  position: absolute;
+  top: 635px;
+  left: 450px; 
+}
+
+/* office objects */
+.online {
+  position: absolute;
+  top: 610px;
+  left: 995px; 
+}
+
+.stationery {
+  position: absolute;
+  top: 750px;
+  left: 525px; 
+}
